@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO academyVideos (titlePt, titleEn, descriptionPt, descriptionEn, videoUrl, thumbnailUrl, duration, published, createdAt, updatedAt, createdBy) VALUES (\n'Introdução ao Fintech Builders',\n'Introduction to Fintech Builders',\n'Vídeo introdutório sobre a comunidade Fintech Builders, seus objetivos e como participar das iniciativas de inovação no setor financeiro.',\n'Introductory video about the Fintech Builders community, its goals and how to participate in financial sector innovation initiatives.',\n'https://www.youtube.com/watch?v=D0T5fnD_mmg',\n'https://img.youtube.com/vi/D0T5fnD_mmg/maxresdefault.jpg',\nNULL,\n1,\nNOW(),\nNOW(),\n1\n)",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute INSERT INTO academyVideos (titlePt, titleEn, descriptionPt, descriptionEn, videoUrl, thumbnailUrl, duration, published, createdAt, updatedAt, createdBy) VALUES (\n'Introdução ao Fintech Builders',\n'Introduction to Fintech Builders',\n'Vídeo introdutório sobre a comunidade Fintech Builders, seus objetivos e como participar das iniciativas de inovação no setor financeiro.',\n'Introductory video about the Fintech Builders community, its goals and how to participate in financial sector innovation initiatives.',\n'https://www.youtube.com/watch?v=D0T5fnD_mmg',\n'https://img.youtube.com/vi/D0T5fnD_mmg/maxresdefault.jpg',\nNULL,\n1,\nNOW(),\nNOW(),\n1\n)",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 75
+}

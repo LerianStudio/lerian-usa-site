@@ -1,0 +1,19 @@
+{
+  "query": "SELECT id, email, name, profileCompleted, jobTitle, company, linkedin FROM users WHERE email = 'duda@lerian.studio'",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, email, name, profileCompleted, jobTitle, company, linkedin FROM users WHERE email = 'duda@lerian.studio'",
+  "rows": [
+    {
+      "id": "30282",
+      "email": "duda@lerian.studio",
+      "name": "duda",
+      "profileCompleted": "0",
+      "jobTitle": "NULL",
+      "company": "NULL",
+      "linkedin": "NULL"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\temail\tname\tprofileCompleted\tjobTitle\tcompany\tlinkedin\n30282\tduda@lerian.studio\tduda\t0\tNULL\tNULL\tNULL\n",
+  "stderr": "",
+  "execution_time_ms": 120
+}

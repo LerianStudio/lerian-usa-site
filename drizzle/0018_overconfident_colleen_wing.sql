@@ -1,0 +1,1 @@
+ALTER TABLE `blogPosts` MODIFY COLUMN `categoryId` int;

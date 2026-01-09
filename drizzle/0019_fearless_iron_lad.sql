@@ -1,0 +1,1 @@
+ALTER TABLE `events` ADD `eventType` enum('webinar','workshop','conference','networking','other') DEFAULT 'other' NOT NULL;

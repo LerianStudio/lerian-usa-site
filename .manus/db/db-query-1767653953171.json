@@ -1,0 +1,45 @@
+{
+  "query": "SELECT * FROM blogCategories",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT * FROM blogCategories",
+  "rows": [
+    {
+      "id": "1",
+      "namePt": "Tecnologia",
+      "nameEn": "Technology",
+      "slug": "technology",
+      "createdAt": "2026-01-05 22:15:09"
+    },
+    {
+      "id": "2",
+      "namePt": "Inovação",
+      "nameEn": "Innovation",
+      "slug": "innovation",
+      "createdAt": "2026-01-05 22:15:09"
+    },
+    {
+      "id": "3",
+      "namePt": "Mercado Financeiro",
+      "nameEn": "Financial Market",
+      "slug": "financial-market",
+      "createdAt": "2026-01-05 22:15:09"
+    },
+    {
+      "id": "4",
+      "namePt": "Educação",
+      "nameEn": "Education",
+      "slug": "education",
+      "createdAt": "2026-01-05 22:15:09"
+    },
+    {
+      "id": "5",
+      "namePt": "Eventos",
+      "nameEn": "Events",
+      "slug": "events",
+      "createdAt": "2026-01-05 22:15:09"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tnamePt\tnameEn\tslug\tcreatedAt\n1\tTecnologia\tTechnology\ttechnology\t2026-01-05 22:15:09\n2\tInovação\tInnovation\tinnovation\t2026-01-05 22:15:09\n3\tMercado Financeiro\tFinancial Market\tfinancial-market\t2026-01-05 22:15:09\n4\tEducação\tEducation\teducation\t2026-01-05 22:15:09\n5\tEventos\tEvents\tevents\t2026-01-05 22:15:09\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

@@ -1,0 +1,8 @@
+{
+  "query": "SELECT id, titlePt, featuredImage FROM blogPosts WHERE titlePt LIKE '%BCB 524%'",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, titlePt, featuredImage FROM blogPosts WHERE titlePt LIKE '%BCB 524%'",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'featuredimage' in 'field list'"
+  ]
+}

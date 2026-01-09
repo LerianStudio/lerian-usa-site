@@ -1,0 +1,13 @@
+{
+  "query": "SELECT LEFT(contentPt, 100) as preview FROM blogPosts WHERE slug = 'resolucao-bcb-524-finalidade-pagamento-instantaneo';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT LEFT(contentPt, 100) as preview FROM blogPosts WHERE slug = 'resolucao-bcb-524-finalidade-pagamento-instantaneo';",
+  "rows": [
+    {
+      "preview": "A Resolução BCB nº 524, que entrou em vigor dia 1º de dezembro de 2025, foi publicada para resolver "
+    }
+  ],
+  "messages": [],
+  "stdout": "preview\nA Resolução BCB nº 524, que entrou em vigor dia 1º de dezembro de 2025, foi publicada para resolver \n",
+  "stderr": "",
+  "execution_time_ms": 54
+}

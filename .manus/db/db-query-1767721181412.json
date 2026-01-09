@@ -1,0 +1,9 @@
+{
+  "query": "INSERT IGNORE INTO academyCategories (namePt, nameEn, slug) VALUES \n('Tecnologia', 'Technology', 'tecnologia'),\n('Produto', 'Product', 'produto'),\n('Regulatório', 'Regulatory', 'regulatorio'),\n('Casos de Uso', 'Use Cases', 'casos-de-uso');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute INSERT IGNORE INTO academyCategories (namePt, nameEn, slug) VALUES \n('Tecnologia', 'Technology', 'tecnologia'),\n('Produto', 'Product', 'produto'),\n('Regulatório', 'Regulatory', 'regulatorio'),\n('Casos de Uso', 'Use Cases', 'casos-de-uso');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 69
+}

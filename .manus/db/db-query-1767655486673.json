@@ -1,0 +1,15 @@
+{
+  "query": "SELECT id, titlePt, videoUrl FROM academyVideos LIMIT 1",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, titlePt, videoUrl FROM academyVideos LIMIT 1",
+  "rows": [
+    {
+      "id": "1",
+      "titlePt": "Introdução ao Fintech Builders",
+      "videoUrl": "https://www.youtube.com/watch?v=D0T5fnD_mmg"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitlePt\tvideoUrl\n1\tIntrodução ao Fintech Builders\thttps://www.youtube.com/watch?v=D0T5fnD_mmg\n",
+  "stderr": "",
+  "execution_time_ms": 53
+}

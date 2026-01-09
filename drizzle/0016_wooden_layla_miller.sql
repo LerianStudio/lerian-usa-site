@@ -1,0 +1,19 @@
+CREATE INDEX `idx_academy_published` ON `academyVideos` (`published`);--> statement-breakpoint
+CREATE INDEX `idx_academy_categoryId` ON `academyVideos` (`categoryId`);--> statement-breakpoint
+CREATE INDEX `idx_academy_createdBy` ON `academyVideos` (`createdBy`);--> statement-breakpoint
+CREATE INDEX `idx_academy_published_categoryId` ON `academyVideos` (`published`,`categoryId`);--> statement-breakpoint
+CREATE INDEX `idx_blogPostComments_postId` ON `blogPostComments` (`postId`);--> statement-breakpoint
+CREATE INDEX `idx_blogPostComments_userId` ON `blogPostComments` (`userId`);--> statement-breakpoint
+CREATE INDEX `idx_blogPostRatings_postId` ON `blogPostRatings` (`postId`);--> statement-breakpoint
+CREATE INDEX `idx_blogPostRatings_userId` ON `blogPostRatings` (`userId`);--> statement-breakpoint
+CREATE INDEX `idx_blog_published` ON `blogPosts` (`published`);--> statement-breakpoint
+CREATE INDEX `idx_blog_publishedAt` ON `blogPosts` (`publishedAt`);--> statement-breakpoint
+CREATE INDEX `idx_blog_categoryId` ON `blogPosts` (`categoryId`);--> statement-breakpoint
+CREATE INDEX `idx_blog_createdBy` ON `blogPosts` (`createdBy`);--> statement-breakpoint
+CREATE INDEX `idx_blog_published_publishedAt` ON `blogPosts` (`published`,`publishedAt`);--> statement-breakpoint
+CREATE INDEX `idx_events_eventDate` ON `events` (`eventDate`);--> statement-breakpoint
+CREATE INDEX `idx_users_role` ON `users` (`role`);--> statement-breakpoint
+CREATE INDEX `idx_videoComments_videoId` ON `videoComments` (`videoId`);--> statement-breakpoint
+CREATE INDEX `idx_videoComments_userId` ON `videoComments` (`userId`);--> statement-breakpoint
+CREATE INDEX `idx_videoRatings_videoId` ON `videoRatings` (`videoId`);--> statement-breakpoint
+CREATE INDEX `idx_videoRatings_userId` ON `videoRatings` (`userId`);

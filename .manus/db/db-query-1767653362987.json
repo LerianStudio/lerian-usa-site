@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO events (titlePt, titleEn, descriptionPt, descriptionEn, eventDate, location, createdBy) VALUES ('Trabalhando com Skills, Hooks, Agents e Commands no Claude Code/Droid/Opencode', 'Working with Skills, Hooks, Agents and Commands in Claude Code/Droid/Opencode', 'Fred Amaral e Jefferson Rodrigues conduzirão um webinar técnico sobre como trabalhar com Skills, Hooks, Agents e Commands nas ferramentas Claude Code, Droid e Opencode. Uma oportunidade única de aprender com especialistas sobre desenvolvimento avançado com IA.', 'Fred Amaral and Jefferson Rodrigues will conduct a technical webinar on how to work with Skills, Hooks, Agents and Commands in Claude Code, Droid and Opencode tools. A unique opportunity to learn from experts about advanced AI development.', '2026-01-16 18:00:00', 'YouTube (Online)', 1)",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute INSERT INTO events (titlePt, titleEn, descriptionPt, descriptionEn, eventDate, location, createdBy) VALUES ('Trabalhando com Skills, Hooks, Agents e Commands no Claude Code/Droid/Opencode', 'Working with Skills, Hooks, Agents and Commands in Claude Code/Droid/Opencode', 'Fred Amaral e Jefferson Rodrigues conduzirão um webinar técnico sobre como trabalhar com Skills, Hooks, Agents e Commands nas ferramentas Claude Code, Droid e Opencode. Uma oportunidade única de aprender com especialistas sobre desenvolvimento avançado com IA.', 'Fred Amaral and Jefferson Rodrigues will conduct a technical webinar on how to work with Skills, Hooks, Agents and Commands in Claude Code, Droid and Opencode tools. A unique opportunity to learn from experts about advanced AI development.', '2026-01-16 18:00:00', 'YouTube (Online)', 1)",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 64
+}

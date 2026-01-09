@@ -1,0 +1,70 @@
+{
+  "query": "SELECT id, titlePt, titleEn FROM blogPosts WHERE titlePt LIKE 'Test%' OR titleEn LIKE 'Test%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, titlePt, titleEn FROM blogPosts WHERE titlePt LIKE 'Test%' OR titleEn LIKE 'Test%';",
+  "rows": [
+    {
+      "id": "150020",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150021",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    },
+    {
+      "id": "150022",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150023",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    },
+    {
+      "id": "150024",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150025",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    },
+    {
+      "id": "150026",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150027",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    },
+    {
+      "id": "150028",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150029",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    },
+    {
+      "id": "150030",
+      "titlePt": "Test Post for Comments",
+      "titleEn": "Test Post for Comments"
+    },
+    {
+      "id": "150031",
+      "titlePt": "Test Post",
+      "titleEn": "Test Post"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitlePt\ttitleEn\n150020\tTest Post for Comments\tTest Post for Comments\n150021\tTest Post\tTest Post\n150022\tTest Post for Comments\tTest Post for Comments\n150023\tTest Post\tTest Post\n150024\tTest Post for Comments\tTest Post for Comments\n150025\tTest Post\tTest Post\n150026\tTest Post for Comments\tTest Post for Comments\n150027\tTest Post\tTest Post\n150028\tTest Post for Comments\tTest Post for Comments\n150029\tTest Post\tTest Post\n150030\tTest Post for Comments\tTest Post for Comments\n150031\tTest Post\tTest Post\n",
+  "stderr": "",
+  "execution_time_ms": 56
+}

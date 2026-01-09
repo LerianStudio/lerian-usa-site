@@ -1,0 +1,16 @@
+{
+  "query": "SELECT id, slug, titlePt, published FROM blogPosts LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, slug, titlePt, published FROM blogPosts LIMIT 5;",
+  "rows": [
+    {
+      "id": "1",
+      "slug": "resolucao-bcb-524-finalidade-pagamento-instantaneo",
+      "titlePt": "Resolução BCB 524 e o problema da finalidade em Sistemas de Pagamento Instantâneo",
+      "published": "1"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tslug\ttitlePt\tpublished\n1\tresolucao-bcb-524-finalidade-pagamento-instantaneo\tResolução BCB 524 e o problema da finalidade em Sistemas de Pagamento Instantâneo\t1\n",
+  "stderr": "",
+  "execution_time_ms": 65
+}

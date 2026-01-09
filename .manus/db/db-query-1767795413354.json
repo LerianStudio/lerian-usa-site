@@ -1,0 +1,385 @@
+{
+  "query": "SELECT id, name, email FROM users WHERE name LIKE 'Test%';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute SELECT id, name, email FROM users WHERE name LIKE 'Test%';",
+  "rows": [
+    {
+      "id": "30655",
+      "name": "Test User",
+      "email": "test-blog-1767661424325@example.com"
+    },
+    {
+      "id": "30656",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767661424556@example.com"
+    },
+    {
+      "id": "30666",
+      "name": "Test User",
+      "email": "test-blog-1767661472818@example.com"
+    },
+    {
+      "id": "30675",
+      "name": "Test User",
+      "email": "test-blog-1767661522814@example.com"
+    },
+    {
+      "id": "30677",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767661523026@example.com"
+    },
+    {
+      "id": "360057",
+      "name": "Test User",
+      "email": "test-blog-1767748332148@example.com"
+    },
+    {
+      "id": "360064",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767748332397@example.com"
+    },
+    {
+      "id": "360109",
+      "name": "Test User",
+      "email": "test-blog-1767749156871@example.com"
+    },
+    {
+      "id": "360112",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767749157077@example.com"
+    },
+    {
+      "id": "360136",
+      "name": "Test User",
+      "email": "test-blog-1767749614574@example.com"
+    },
+    {
+      "id": "360139",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767749614779@example.com"
+    },
+    {
+      "id": "360180",
+      "name": "Test User",
+      "email": "test-blog-1767750568732@example.com"
+    },
+    {
+      "id": "360186",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767750568929@example.com"
+    },
+    {
+      "id": "360191",
+      "name": "Test User",
+      "email": "test-blog-1767750593785@example.com"
+    },
+    {
+      "id": "360198",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767750593986@example.com"
+    },
+    {
+      "id": "360204",
+      "name": "Test User",
+      "email": "test-blog-1767750649702@example.com"
+    },
+    {
+      "id": "360206",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767750649906@example.com"
+    },
+    {
+      "id": "390029",
+      "name": "Test User",
+      "email": "test-blog-1767752077272@example.com"
+    },
+    {
+      "id": "390031",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752077474@example.com"
+    },
+    {
+      "id": "390058",
+      "name": "Test User",
+      "email": "test-blog-1767752216819@example.com"
+    },
+    {
+      "id": "390060",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752217026@example.com"
+    },
+    {
+      "id": "390072",
+      "name": "Test User",
+      "email": "test-blog-1767752221946@example.com"
+    },
+    {
+      "id": "390077",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752222153@example.com"
+    },
+    {
+      "id": "390086",
+      "name": "Test User",
+      "email": "test-blog-1767752228610@example.com"
+    },
+    {
+      "id": "390089",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752228793@example.com"
+    },
+    {
+      "id": "390119",
+      "name": "Test User",
+      "email": "test-blog-1767752307629@example.com"
+    },
+    {
+      "id": "390120",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752307832@example.com"
+    },
+    {
+      "id": "390175",
+      "name": "Test User",
+      "email": "test-blog-1767752906054@example.com"
+    },
+    {
+      "id": "390177",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767752906247@example.com"
+    },
+    {
+      "id": "390284",
+      "name": "Test User",
+      "email": "test-blog-1767753293038@example.com"
+    },
+    {
+      "id": "390288",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767753293224@example.com"
+    },
+    {
+      "id": "390300",
+      "name": "Test User",
+      "email": "test-blog-1767753297802@example.com"
+    },
+    {
+      "id": "390308",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767753298001@example.com"
+    },
+    {
+      "id": "390314",
+      "name": "Test User",
+      "email": "test-blog-1767753321165@example.com"
+    },
+    {
+      "id": "390315",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767753321364@example.com"
+    },
+    {
+      "id": "390365",
+      "name": "Test User",
+      "email": "test-blog-1767754503514@example.com"
+    },
+    {
+      "id": "390370",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767754503690@example.com"
+    },
+    {
+      "id": "390381",
+      "name": "Test User",
+      "email": "test-blog-1767754524317@example.com"
+    },
+    {
+      "id": "390383",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767754524521@example.com"
+    },
+    {
+      "id": "390396",
+      "name": "Test User",
+      "email": "test-blog-1767754545880@example.com"
+    },
+    {
+      "id": "390400",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767754546062@example.com"
+    },
+    {
+      "id": "390415",
+      "name": "Test User",
+      "email": "test-blog-1767754564595@example.com"
+    },
+    {
+      "id": "390419",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767754564794@example.com"
+    },
+    {
+      "id": "540044",
+      "name": "Test User",
+      "email": "test-blog-1767786242055@example.com"
+    },
+    {
+      "id": "540046",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767786242271@example.com"
+    },
+    {
+      "id": "570004",
+      "name": "Test User",
+      "email": "test-blog-1767792559716@example.com"
+    },
+    {
+      "id": "570005",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792560119@example.com"
+    },
+    {
+      "id": "570020",
+      "name": "Test User",
+      "email": "test-blog-1767792585408@example.com"
+    },
+    {
+      "id": "570021",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792585598@example.com"
+    },
+    {
+      "id": "570036",
+      "name": "Test User",
+      "email": "test-blog-1767792626682@example.com"
+    },
+    {
+      "id": "570043",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792626893@example.com"
+    },
+    {
+      "id": "570055",
+      "name": "Test User",
+      "email": "test-blog-1767792649506@example.com"
+    },
+    {
+      "id": "570064",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792649696@example.com"
+    },
+    {
+      "id": "570084",
+      "name": "Test User",
+      "email": "test-blog-1767792678020@example.com"
+    },
+    {
+      "id": "570085",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792678242@example.com"
+    },
+    {
+      "id": "570114",
+      "name": "Test User",
+      "email": "test-blog-1767792708925@example.com"
+    },
+    {
+      "id": "570118",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792709123@example.com"
+    },
+    {
+      "id": "570138",
+      "name": "Test User",
+      "email": "test-blog-1767792739913@example.com"
+    },
+    {
+      "id": "570140",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792740116@example.com"
+    },
+    {
+      "id": "570159",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767792761871@example.com"
+    },
+    {
+      "id": "570263",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767793434444@example.com"
+    },
+    {
+      "id": "570278",
+      "name": "Test User",
+      "email": "test-blog-1767793480209@example.com"
+    },
+    {
+      "id": "570283",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767793480417@example.com"
+    },
+    {
+      "id": "570301",
+      "name": "Test User",
+      "email": "test-blog-1767794000248@example.com"
+    },
+    {
+      "id": "570303",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767794000453@example.com"
+    },
+    {
+      "id": "570337",
+      "name": "Test User",
+      "email": "test-blog-1767794418568@example.com"
+    },
+    {
+      "id": "570338",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767794418776@example.com"
+    },
+    {
+      "id": "570373",
+      "name": "Test User",
+      "email": "test-blog-1767794803559@example.com"
+    },
+    {
+      "id": "570380",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767794803755@example.com"
+    },
+    {
+      "id": "570402",
+      "name": "Test User",
+      "email": "test-blog-1767794835847@example.com"
+    },
+    {
+      "id": "570406",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767794836504@example.com"
+    },
+    {
+      "id": "570410",
+      "name": "Test User",
+      "email": "test-blog-1767794861623@example.com"
+    },
+    {
+      "id": "570412",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767794861815@example.com"
+    },
+    {
+      "id": "570446",
+      "name": "Test User",
+      "email": "test-blog-1767795022948@example.com"
+    },
+    {
+      "id": "570448",
+      "name": "Test Commenter",
+      "email": "test-commenter-1767795023160@example.com"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\temail\n30655\tTest User\ttest-blog-1767661424325@example.com\n30656\tTest Commenter\ttest-commenter-1767661424556@example.com\n30666\tTest User\ttest-blog-1767661472818@example.com\n30675\tTest User\ttest-blog-1767661522814@example.com\n30677\tTest Commenter\ttest-commenter-1767661523026@example.com\n360057\tTest User\ttest-blog-1767748332148@example.com\n360064\tTest Commenter\ttest-commenter-1767748332397@example.com\n360109\tTest User\ttest-blog-1767749156871@example.com\n360112\tTest Commenter\ttest-commenter-1767749157077@example.com\n360136\tTest User\ttest-blog-1767749614574@example.com\n360139\tTest Commenter\ttest-commenter-1767749614779@example.com\n360180\tTest User\ttest-blog-1767750568732@example.com\n360186\tTest Commenter\ttest-commenter-1767750568929@example.com\n360191\tTest User\ttest-blog-1767750593785@example.com\n360198\tTest Commenter\ttest-commenter-1767750593986@example.com\n360204\tTest User\ttest-blog-1767750649702@example.com\n360206\tTest Commenter\ttest-commenter-1767750649906@example.com\n390029\tTest User\ttest-blog-1767752077272@example.com\n390031\tTest Commenter\ttest-commenter-1767752077474@example.com\n390058\tTest User\ttest-blog-1767752216819@example.com\n390060\tTest Commenter\ttest-commenter-1767752217026@example.com\n390072\tTest User\ttest-blog-1767752221946@example.com\n390077\tTest Commenter\ttest-commenter-1767752222153@example.com\n390086\tTest User\ttest-blog-1767752228610@example.com\n390089\tTest Commenter\ttest-commenter-1767752228793@example.com\n390119\tTest User\ttest-blog-1767752307629@example.com\n390120\tTest Commenter\ttest-commenter-1767752307832@example.com\n390175\tTest User\ttest-blog-1767752906054@example.com\n390177\tTest Commenter\ttest-commenter-1767752906247@example.com\n390284\tTest User\ttest-blog-1767753293038@example.com\n390288\tTest Commenter\ttest-commenter-1767753293224@example.com\n390300\tTest User\ttest-blog-1767753297802@example.com\n390308\tTest Commenter\ttest-commenter-1767753298001@example.com\n390314\tTest User\ttest-blog-1767753321165@example.com\n390315\tTest Commenter\ttest-commenter-1767753321364@example.com\n390365\tTest User\ttest-blog-1767754503514@example.com\n390370\tTest Commenter\ttest-commenter-1767754503690@example.com\n390381\tTest User\ttest-blog-1767754524317@example.com\n390383\tTest Commenter\ttest-commenter-1767754524521@example.com\n390396\tTest User\ttest-blog-1767754545880@example.com\n390400\tTest Commenter\ttest-commenter-1767754546062@example.com\n390415\tTest User\ttest-blog-1767754564595@example.com\n390419\tTest Commenter\ttest-commenter-1767754564794@example.com\n540044\tTest User\ttest-blog-1767786242055@example.com\n540046\tTest Commenter\ttest-commenter-1767786242271@example.com\n570004\tTest User\ttest-blog-1767792559716@example.com\n570005\tTest Commenter\ttest-commenter-1767792560119@example.com\n570020\tTest User\ttest-blog-1767792585408@example.com\n570021\tTest Commenter\ttest-commenter-1767792585598@example.com\n570036\tTest User\ttest-blog-1767792626682@example.com\n570043\tTest Commenter\ttest-commenter-1767792626893@example.com\n570055\tTest User\ttest-blog-1767792649506@example.com\n570064\tTest Commenter\ttest-commenter-1767792649696@example.com\n570084\tTest User\ttest-blog-1767792678020@example.com\n570085\tTest Commenter\ttest-commenter-1767792678242@example.com\n570114\tTest User\ttest-blog-1767792708925@example.com\n570118\tTest Commenter\ttest-commenter-1767792709123@example.com\n570138\tTest User\ttest-blog-1767792739913@example.com\n570140\tTest Commenter\ttest-commenter-1767792740116@example.com\n570159\tTest Commenter\ttest-commenter-1767792761871@example.com\n570263\tTest Commenter\ttest-commenter-1767793434444@example.com\n570278\tTest User\ttest-blog-1767793480209@example.com\n570283\tTest Commenter\ttest-commenter-1767793480417@example.com\n570301\tTest User\ttest-blog-1767794000248@example.com\n570303\tTest Commenter\ttest-commenter-1767794000453@example.com\n570337\tTest User\ttest-blog-1767794418568@example.com\n570338\tTest Commenter\ttest-commenter-1767794418776@example.com\n570373\tTest User\ttest-blog-1767794803559@example.com\n570380\tTest Commenter\ttest-commenter-1767794803755@example.com\n570402\tTest User\ttest-blog-1767794835847@example.com\n570406\tTest Commenter\ttest-commenter-1767794836504@example.com\n570410\tTest User\ttest-blog-1767794861623@example.com\n570412\tTest Commenter\ttest-commenter-1767794861815@example.com\n570446\tTest User\ttest-blog-1767795022948@example.com\n570448\tTest Commenter\ttest-commenter-1767795023160@example.com\n",
+  "stderr": "",
+  "execution_time_ms": 54
+}

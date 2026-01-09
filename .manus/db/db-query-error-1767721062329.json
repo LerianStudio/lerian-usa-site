@@ -1,0 +1,8 @@
+{
+  "query": "INSERT IGNORE INTO academyCategories (namePt, nameEn, slug) VALUES \n('Tecnologia', 'Technology', 'tecnologia'),\n('Produto', 'Product', 'produto'),\n('Regulatório', 'Regulatory', 'regulatorio'),\n('Casos de Uso', 'Use Cases', 'casos-de-uso');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute INSERT IGNORE INTO academyCategories (namePt, nameEn, slug) VALUES \n('Tecnologia', 'Technology', 'tecnologia'),\n('Produto', 'Product', 'produto'),\n('Regulatório', 'Regulatory', 'regulatorio'),\n('Casos de Uso', 'Use Cases', 'casos-de-uso');",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1146 (42S02) at line 1: Table '2m7aufav3rcb6j4d7tnz6q.academyCategories' doesn't exist"
+  ]
+}

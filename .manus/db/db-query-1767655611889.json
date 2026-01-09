@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE blogPosts SET coverImageUrl = '/bcb524-cover.png' WHERE slug = 'resolucao-bcb-524-finalidade-pagamentos'",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user J51iwxF849rr2UT.root --database 2m7aufAV3RcB6j4D7tnz6Q --execute UPDATE blogPosts SET coverImageUrl = '/bcb524-cover.png' WHERE slug = 'resolucao-bcb-524-finalidade-pagamentos'",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 55
+}

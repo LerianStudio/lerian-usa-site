@@ -1,0 +1,1 @@
+-- Migration 0006: profileCompleted already exists, no changes needed
