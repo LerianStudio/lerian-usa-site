@@ -123,7 +123,7 @@ export default function EditProfileDialog({
             <Button
               type="submit"
               disabled={updateProfile.isPending}
-              className="bg-primary-green hover:bg-primary-green/90"
+              className="bg-primary hover:bg-primary/90"
             >
               {updateProfile.isPending ? t("common.saving") : t("common.save")}
             </Button>

@@ -45,8 +45,8 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/">
           <div className="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer">
-            <img src="/logo.png" alt="Fintech Builders" className="h-10 w-10" />
-            <span className="font-bold text-xl hidden sm:inline">Fintech Builders</span>
+            <img src="/logo.png" alt="Lerian USA" className="h-10 w-10" />
+            <span className="font-bold text-xl hidden sm:inline">Lerian USA</span>
           </div>
         </Link>
 

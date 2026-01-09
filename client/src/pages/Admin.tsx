@@ -44,7 +44,7 @@ export default function Admin() {
           <div className="mb-8">
             <h1 className="text-4xl font-bold mb-2">{t("admin.dashboard")}</h1>
             <p className="text-muted-foreground">
-              Gerencie conteúdo da plataforma Fintech Builders
+              Gerencie conteúdo da plataforma Lerian USA
             </p>
           </div>
 

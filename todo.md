@@ -798,3 +798,15 @@
 - [x] Criar modal de detalhes ao clicar no calendário
 - [x] Adicionar legenda de cores por tipo de evento
 - [x] Adicionar seção de estatísticas por tipo
+
+
+## Customização para Lerian USA (Nova Tarefa)
+- [x] Corrigir erro de URL inválida no getLoginUrl
+- [x] Alterar nome do site de "Fintech Builders" para "Lerian USA"
+- [x] Atualizar Header com nome "Lerian USA"
+- [x] Atualizar Footer com informações Lerian USA
+- [x] Atualizar textos da homepage para Lerian USA
+- [x] Atualizar título da página (document title)
+- [x] Verificar todas as cores verdes restantes e substituir por amarelo
+- [x] Testar todas as páginas após customização
+- [ ] Criar checkpoint final

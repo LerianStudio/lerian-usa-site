@@ -10,8 +10,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Fintech Builders" className="h-10 w-10" />
-              <span className="font-bold text-lg">Fintech Builders</span>
+              <img src="/logo.png" alt="Lerian USA" className="h-10 w-10" />
+              <span className="font-bold text-lg">Lerian USA</span>
             </div>
             <p className="text-sm text-muted-foreground">
               {language === "pt"
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Fintech Builders. {language === "pt" ? "Todos os direitos reservados." : "All rights reserved."}</p>
+          <p>© {currentYear} Lerian USA. {language === "pt" ? "Todos os direitos reservados." : "All rights reserved."}</p>
         </div>
       </div>
     </footer>
