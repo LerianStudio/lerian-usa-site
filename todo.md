@@ -810,3 +810,6 @@
 - [x] Verificar todas as cores verdes restantes e substituir por amarelo
 - [x] Testar todas as páginas após customização
 - [ ] Criar checkpoint final
+
+## Sincronização GitHub
+- [ ] Sincronizar projeto com repositório https://github.com/LerianStudio/lerian-usa-site
