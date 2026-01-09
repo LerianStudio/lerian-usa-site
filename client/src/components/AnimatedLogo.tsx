@@ -17,25 +17,25 @@ export function AnimatedLogo() {
           />
         </g>
 
-        {/* Diamond 2 - Left (Green) */}
+        {/* Diamond 2 - Left (Yellow) */}
         <g className="animate-float" style={{ animationDelay: "0.3s" }}>
           <path
             d="M 70 70 L 85 85 L 70 100 L 55 85 Z"
             fill="none"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="3"
-            className="opacity-100 drop-shadow-[0_0_10px_rgba(0,255,127,0.5)]"
+            className="opacity-100 drop-shadow-[0_0_10px_rgba(249,236,78,0.5)]"
           />
         </g>
 
-        {/* Diamond 3 - Right (Green) */}
+        {/* Diamond 3 - Right (Yellow) */}
         <g className="animate-float" style={{ animationDelay: "0.6s" }}>
           <path
             d="M 130 70 L 145 85 L 130 100 L 115 85 Z"
             fill="none"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="3"
-            className="opacity-100 drop-shadow-[0_0_10px_rgba(0,255,127,0.5)]"
+            className="opacity-100 drop-shadow-[0_0_10px_rgba(249,236,78,0.5)]"
           />
         </g>
 
@@ -58,7 +58,7 @@ export function AnimatedLogo() {
             y1="62"
             x2="78"
             y2="78"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="1"
             strokeDasharray="4 4"
             className="animate-pulse"
@@ -69,7 +69,7 @@ export function AnimatedLogo() {
             y1="62"
             x2="122"
             y2="78"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="1"
             strokeDasharray="4 4"
             className="animate-pulse"
@@ -81,7 +81,7 @@ export function AnimatedLogo() {
             y1="92"
             x2="92"
             y2="108"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="1"
             strokeDasharray="4 4"
             className="animate-pulse"
@@ -93,7 +93,7 @@ export function AnimatedLogo() {
             y1="92"
             x2="108"
             y2="108"
-            stroke="#00ff7f"
+            stroke="#f9ec4e"
             strokeWidth="1"
             strokeDasharray="4 4"
             className="animate-pulse"
@@ -116,9 +116,9 @@ export function AnimatedLogo() {
 
         <defs>
           <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#00ff7f" stopOpacity="0.8" />
-            <stop offset="50%" stopColor="#00d4aa" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#00ff7f" stopOpacity="0.8" />
+            <stop offset="0%" stopColor="#f9ec4e" stopOpacity="0.8" />
+            <stop offset="50%" stopColor="#e5d948" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#f9ec4e" stopOpacity="0.8" />
           </linearGradient>
         </defs>
       </svg>

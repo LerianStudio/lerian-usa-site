@@ -77,7 +77,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
   if (isLoading || isFetching) {
     return (
       <div className="flex items-center justify-center py-12">
-        <Loader2 className="h-8 w-8 animate-spin text-green-500" />
+        <Loader2 className="h-8 w-8 animate-spin text-yellow-500" />
       </div>
     );
   }
@@ -94,24 +94,24 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <Card className="p-6 bg-slate-900 border-slate-700">
           <div className="text-sm text-gray-400 mb-2">{labels.totalLabel}</div>
-          <div className="text-3xl font-bold text-green-500">{displayMetrics.totalItems}</div>
+          <div className="text-3xl font-bold text-yellow-500">{displayMetrics.totalItems}</div>
         </Card>
 
         <Card className="p-6 bg-slate-900 border-slate-700">
           <div className="text-sm text-gray-400 mb-2">Avaliação Média</div>
-          <div className="text-3xl font-bold text-green-500">
+          <div className="text-3xl font-bold text-yellow-500">
             {displayMetrics.averageRating.toFixed(1)} ⭐
           </div>
         </Card>
 
         <Card className="p-6 bg-slate-900 border-slate-700">
           <div className="text-sm text-gray-400 mb-2">Total de Comentários</div>
-          <div className="text-3xl font-bold text-green-500">{displayMetrics.totalComments}</div>
+          <div className="text-3xl font-bold text-yellow-500">{displayMetrics.totalComments}</div>
         </Card>
 
         <Card className="p-6 bg-slate-900 border-slate-700">
           <div className="text-sm text-gray-400 mb-2">Taxa de Engajamento</div>
-          <div className="text-3xl font-bold text-green-500">
+          <div className="text-3xl font-bold text-yellow-500">
             {displayMetrics.engagementRate.toFixed(1)}
           </div>
         </Card>
@@ -125,7 +125,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
             {displayMetrics.itemsByCategory.map((cat) => (
               <div key={cat.category} className="flex justify-between items-center">
                 <span className="text-gray-300">{cat.category || 'Sem categoria'}</span>
-                <span className="text-green-500 font-semibold">{cat.count}</span>
+                <span className="text-yellow-500 font-semibold">{cat.count}</span>
               </div>
             ))}
           </div>
@@ -140,7 +140,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
             <div className="text-white font-semibold mb-2 line-clamp-2">
               {displayMetrics.mostRatedItem.title}
             </div>
-            <div className="text-green-500 text-lg">
+            <div className="text-yellow-500 text-lg">
               {displayMetrics.mostRatedItem.rating.toFixed(1)} ⭐
             </div>
           </Card>
@@ -152,7 +152,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
             <div className="text-white font-semibold mb-2 line-clamp-2">
               {displayMetrics.leastRatedItem.title}
             </div>
-            <div className="text-green-500 text-lg">
+            <div className="text-yellow-500 text-lg">
               {displayMetrics.leastRatedItem.rating.toFixed(1)} ⭐
             </div>
           </Card>
@@ -166,7 +166,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
           <div className="text-white font-semibold mb-2 line-clamp-2">
             {displayMetrics.mostCommentedItem.title}
           </div>
-          <div className="text-green-500 text-lg">
+          <div className="text-yellow-500 text-lg">
             {displayMetrics.mostCommentedItem.commentCount} comentários
           </div>
         </Card>
@@ -178,7 +178,7 @@ export function ContentAnalytics<T extends 'blog' | 'academy'>({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <div className="text-sm text-gray-400 mb-2">Média de Comentários por {itemLabel}</div>
-            <div className="text-2xl font-bold text-green-500">
+            <div className="text-2xl font-bold text-yellow-500">
               {displayMetrics.averageCommentsPerItem.toFixed(2)}
             </div>
           </div>

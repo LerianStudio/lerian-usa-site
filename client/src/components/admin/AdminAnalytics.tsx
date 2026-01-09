@@ -61,7 +61,7 @@ export function AdminAnalytics() {
             onClick={() => setActiveTab(tab.id)}
             className={`px-4 py-2 font-medium text-sm transition-colors ${
               activeTab === tab.id
-                ? "text-green-500 border-b-2 border-green-500"
+                ? "text-yellow-500 border-b-2 border-yellow-500"
                 : "text-gray-400 hover:text-gray-300"
             }`}
           >

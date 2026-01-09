@@ -4,11 +4,11 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
   "Tecnologia": { bg: "bg-blue-500/20", text: "text-blue-400" },
   "Produto": { bg: "bg-purple-500/20", text: "text-purple-400" },
   "Regulatório": { bg: "bg-orange-500/20", text: "text-orange-400" },
-  "Casos de Uso": { bg: "bg-green-500/20", text: "text-green-400" },
+  "Casos de Uso": { bg: "bg-yellow-500/20", text: "text-yellow-400" },
   "Technology": { bg: "bg-blue-500/20", text: "text-blue-400" },
   "Product": { bg: "bg-purple-500/20", text: "text-purple-400" },
   "Regulatory": { bg: "bg-orange-500/20", text: "text-orange-400" },
-  "Use Cases": { bg: "bg-green-500/20", text: "text-green-400" },
+  "Use Cases": { bg: "bg-yellow-500/20", text: "text-yellow-400" },
 };
 
 interface CategoryBadgeProps {

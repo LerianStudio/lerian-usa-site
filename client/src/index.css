@@ -43,16 +43,16 @@
 }
 
 :root {
-  /* Fintech Builders Brand Green */
-  --primary: oklch(0.75 0.25 155);
+  /* Lerian USA Brand Yellow */
+  --primary: oklch(0.92 0.18 95);
   --primary-foreground: oklch(0.15 0 0);
-  --sidebar-primary: oklch(0.75 0.25 155);
+  --sidebar-primary: oklch(0.92 0.18 95);
   --sidebar-primary-foreground: oklch(0.15 0 0);
-  --chart-1: oklch(0.65 0.20 155);
-  --chart-2: oklch(0.70 0.22 155);
-  --chart-3: oklch(0.75 0.25 155);
-  --chart-4: oklch(0.80 0.27 155);
-  --chart-5: oklch(0.85 0.30 155);
+  --chart-1: oklch(0.82 0.14 95);
+  --chart-2: oklch(0.86 0.16 95);
+  --chart-3: oklch(0.90 0.18 95);
+  --chart-4: oklch(0.94 0.20 95);
+  --chart-5: oklch(0.96 0.22 95);
   --radius: 0.65rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.235 0.015 65);
@@ -80,10 +80,10 @@
 }
 
 .dark {
-  /* Fintech Builders Dark Tech Theme */
-  --primary: oklch(0.78 0.28 155);
+  /* Lerian USA Dark Tech Theme */
+  --primary: oklch(0.92 0.18 95);
   --primary-foreground: oklch(0.10 0 0);
-  --sidebar-primary: oklch(0.78 0.28 155);
+  --sidebar-primary: oklch(0.92 0.18 95);
   --sidebar-primary-foreground: oklch(0.10 0 0);
   --background: oklch(0.10 0.005 285.823);
   --foreground: oklch(0.95 0.005 65);
@@ -101,18 +101,18 @@
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(1 0 0 / 8%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.78 0.28 155);
-  --chart-1: oklch(0.65 0.20 155);
-  --chart-2: oklch(0.70 0.22 155);
-  --chart-3: oklch(0.75 0.25 155);
-  --chart-4: oklch(0.80 0.27 155);
-  --chart-5: oklch(0.85 0.30 155);
+  --ring: oklch(0.92 0.18 95);
+  --chart-1: oklch(0.82 0.14 95);
+  --chart-2: oklch(0.86 0.16 95);
+  --chart-3: oklch(0.90 0.18 95);
+  --chart-4: oklch(0.94 0.20 95);
+  --chart-5: oklch(0.96 0.22 95);
   --sidebar: oklch(0.15 0.008 285.885);
   --sidebar-foreground: oklch(0.95 0.005 65);
   --sidebar-accent: oklch(0.20 0.008 286.033);
   --sidebar-accent-foreground: oklch(0.95 0 0);
   --sidebar-border: oklch(1 0 0 / 8%);
-  --sidebar-ring: oklch(0.78 0.28 155);
+  --sidebar-ring: oklch(0.92 0.18 95);
 }
 
 @layer base {
@@ -193,10 +193,10 @@
   
   @keyframes glow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(0, 255, 127, 0.3);
+      box-shadow: 0 0 20px rgba(249, 236, 78, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(0, 255, 127, 0.6);
+      box-shadow: 0 0 40px rgba(249, 236, 78, 0.6);
     }
   }
   
@@ -211,7 +211,7 @@
   }
   
   .gradient-text {
-    background: linear-gradient(135deg, #00ff7f 0%, #00d4aa 100%);
+    background: linear-gradient(135deg, #f9ec4e 0%, #e5d948 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -219,8 +219,8 @@
   
   .tech-grid {
     background-image: 
-      linear-gradient(rgba(0, 255, 127, 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 255, 127, 0.03) 1px, transparent 1px);
+      linear-gradient(rgba(249, 236, 78, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(249, 236, 78, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
   }
 }
